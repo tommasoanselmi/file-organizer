@@ -4,7 +4,7 @@ FileOrganizer è il progetto del primo modulo del corso di Data Science. Il prog
 
 ## 1. Organizzazione dei file
 
-Lo script sposterà ogni file nella cartella corrispondente al suo tipo. Se le cartelle sono presenti le crea senza sovrascriverle. I file categorizzati vengono elencati nel file `recap.csv`. Il file è creato se non esiste e continuamente aggiornato e non sovrascritto.
+Lo script sposterà ogni file nella cartella corrispondente al suo tipo. Se le cartelle non sono presenti le crea senza sovrascriverle. I file categorizzati vengono elencati nel file `recap.csv`. Il file è creato se non esiste. Inoltre, è continuamente aggiornato e non sovrascritto.
 
 ## 2. Realizzazione dell'eseguibile
 
@@ -45,6 +45,6 @@ sudo apt-get install libmagic
 pip install python-magic
 ```
 ### Windows:
-```powershell
+```bash
 pip install python-magic-bin
 ```
